@@ -8,6 +8,6 @@ phases:
     commands:
       - echo Build completed on `date`
 artifacts:
-  files: 
-    - */my-file-3.txt
+  files:
+    - artifacts/**/*
     base-directory: artifacts/my-build-2
