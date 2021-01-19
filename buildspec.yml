@@ -9,7 +9,7 @@ phases:
       - echo Build completed on `date`
       - ls -R
 artifacts:
-  name: artifacts-test-build#$CODEBUILD_BUILD_NUMBER
+  name: build#$CODEBUILD_BUILD_NUMBER
   files:
     - '*.*'
   base-directory: artifacts/my-build-2
