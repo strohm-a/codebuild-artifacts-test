@@ -7,7 +7,7 @@ phases:
   post_build:
     commands:
       - echo Build completed on `date`
-      - tree
+      - ls -R
 artifacts:
   files:
     - artifacts/**/*
