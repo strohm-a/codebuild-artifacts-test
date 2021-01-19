@@ -10,5 +10,5 @@ phases:
       - ls -R
 artifacts:
   files:
-    - artifacts/**/*
+    - '**/*'
   base-directory: artifacts/my-build-2
