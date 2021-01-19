@@ -10,4 +10,4 @@ phases:
 artifacts:
   files:
     - artifacts/**/*
-    base-directory: artifacts/my-build-2
+  base-directory: artifacts/my-build-2
