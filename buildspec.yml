@@ -4,6 +4,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - echo MY_EXPORTED_VAR = $MY_EXPORTED_VAR
   post_build:
     commands:
       - echo Build completed on `date`
@@ -13,3 +14,6 @@ artifacts:
   files:
     - '*/my-file-3.txt'
   base-directory: artifacts/my-build-2
+env:
+  variables:
+    - MY_EXPORTED_VAR:"exported variable"
