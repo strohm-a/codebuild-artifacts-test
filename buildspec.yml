@@ -16,4 +16,4 @@ artifacts:
   base-directory: artifacts/my-build-2
 env:
   variables:
-    - MY_EXPORTED_VAR:"exported variable"
+    MY_EXPORTED_VAR: "exported variable"
