@@ -17,3 +17,5 @@ artifacts:
 env:
   variables:
     MY_EXPORTED_VAR: "exported variable"
+  exported-variables:
+    - MY_EXPORTED_VAR
